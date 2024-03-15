@@ -47,5 +47,6 @@ in case of `active` (`foreground`) application state and
 ## How to Run
 ```
 yarn install
+npx expo prebuild --clean
 yarn run android
 ```
