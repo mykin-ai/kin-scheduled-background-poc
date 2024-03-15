@@ -29,6 +29,7 @@ BackgroundFetch.registerTaskAsync(BACKGROUND_NOTIFICATIONS_TASK, {
 ```
 
 ## Issue description
+>❗ **Important it's only reproducible on Physical Android device.**
 
 The background task is not running as expected in Android.
 The code after `await` just suspends and nothing happened in case of `background` or `terminated` application state.
